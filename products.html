@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body data-bs-theme="light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-2">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav w-100 justify-content-evenly">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">
+                            <i class="fas fa-home"></i>
+                            <span>Inicio</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html">
+                            <i class="fas fa-list"></i>
+                            <span>Productos</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://wa.me/92369881">
+                            <i class="fa-brands fa-whatsapp"></i>
+                            <span>Contacto</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Barra de búsqueda (pantallas grandes) -->
+            <div class="search-bar d-flex align-items-center d-none d-lg-flex">
+                <input type="search" id="search" class="form-control me-2" placeholder="Buscar productos..."
+                    style="width: 250px;">
+                <button class="btn btn-outline-light"><i class="fas fa-search"></i></button>
+            </div>
+            <!-- Ícono de búsqueda (pantallas pequeñas) -->
+            <div class="search-icon d-lg-none mt-1">
+                <button class="btn btn-outline-light"><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4 mt-3" id="cards">
+        <!-- Tarjetas de productos -->
+        <div class="col">
+            <div class="card h-100">
+                <img src="images/pavlova.jpg" class="img-fluid" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Pavlova</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100">
+              <img src="images/marquise.jpg" class="img-fluid" alt="...">
+              <div class="card-body">
+                  <h5 class="card-title">Marquise</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                      additional content. This content is a little bit longer.</p>
+              </div>
+          </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+            <img src="images/cheesecake.jpg" class="img-fluid" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Cheesecake</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+            </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+            <img src="images/lemonpie.jpg" class="img-fluid" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Lemon pie</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+            </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+            <img src="images/ricota.jpg" class="img-fluid" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Torta de ricota</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+            </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+            <img src="images/donas.jpg" class="img-fluid" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Donas</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+            </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+            <img src="images/budinbanana.jpg" class="img-fluid" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Budín de banana</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+            </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+            <img src="images/budinnaranja.jpg" class="img-fluid" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Budín de naranja</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+            </div>
+        </div>
+      </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
