@@ -1,0 +1,10 @@
+#cards{
+    margin: 5px;
+}
+
+/* Asegura que todas las imágenes tengan el mismo tamaño */
+.card-img-top {
+    width: 100%; /* Ocupa todo el ancho de la tarjeta */
+    height: 200px; /* Define una altura fija */
+    object-fit: cover; /* Recorta la imagen mientras mantiene sus proporciones */
+}
