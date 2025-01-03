@@ -2,6 +2,10 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+h5{
+    text-align: center;
+}
+
 .card {
     max-height: 400px;
     overflow: hidden;
@@ -14,6 +18,10 @@ body {
 
 #cards{
     margin-bottom: 40px;
+}
+
+.card-text{
+    text-align: end;
 }
 
 .search-bar {
